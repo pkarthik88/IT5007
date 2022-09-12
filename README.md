@@ -7,8 +7,9 @@
 ```docker run -p 127.0.0.1:3000:3000/tcp --name tutorial3 -dit it5007_tutorial:t3 bash```
 * Download the skeleton code for the tutorial
   * Using Git clone: 
-    - Attach shell to container on VSCode. Navigate to home folder
-    - $ ```git clone https://github.com/pkarthik88/IT5007-Tutorial-3 it5007 /home/it5007```
+    - Attach shell to container on VSCode.
+    - ```cd /home```
+    - $ ```git clone https://github.com/pkarthik88/IT5007 it5007```
   * Manual Download 
     * Manually download code from Github repository (https://github.com/pkarthik88/IT5007-Tutorial-3/) as a zip file. 
     * Copy the files over from your laptop to the tutorial3 docker container using the powershell command: docker cp <path where the skeleton code is available> tutorial3:/home/it5007/
