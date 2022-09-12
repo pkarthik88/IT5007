@@ -21,7 +21,7 @@
   * For this, create a private (empty) repository with Github or Bitbucket using their website. These websites usually ask if you want to add README or .gitignore files. DO NOT add these. Get a (https) link to the repository once created.
   * Navigate to /home/it5007. 
   * Run the following command: $```git remote add myrepository <https link to your git repository>```
-  * To push the changes: $```git push myrepository master```
+  * To push the changes: $```git push myrepository```
   * If you are coding in a branch use the following command instead: $```git push -u myrepository <mybranchname>```
   * For the submission, create a file with the following contents:
     - Github repo link and branch name.
