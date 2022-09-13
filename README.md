@@ -1,10 +1,12 @@
 # IT5007 Tutorial Setup and Submission
 
 * Download the docker image from https://luminus.nus.edu.sg/download/7acc0733-0ec2-4844-8c14-6b121aa0ec5c?name=docker_base_image.tar
-* For Windows, Launch powershell and import the image as follows
+* Launch powershell (for Windows) or terminal (for Mac) and import the image as follows
 ```docker load -i docker_base_image.tar```
 * Launch a container from this image using
 ```docker run -p 127.0.0.1:3000:3000/tcp --name tutorial3 -dit it5007_tutorial:t3 bash```
+* For Mac, use the following command with the extra '--platform linux/amd64' flag
+```docker run -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name tutorial3 -dit it5007_tutorial:t3 bash```
 * Download the skeleton code for the tutorial
   * Using Git clone: 
     - Attach shell to container on VSCode.
