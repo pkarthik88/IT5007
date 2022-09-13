@@ -1,6 +1,7 @@
 # IT5007 Tutorial Setup and Submission
 
 * Download the docker image from https://luminus.nus.edu.sg/download/7acc0733-0ec2-4844-8c14-6b121aa0ec5c?name=docker_base_image.tar
+* Launch the Docker application
 * Launch powershell (for Windows) or terminal (for Mac) inside the directory with the downloaded image file, and import the image as follows
 ```
 docker load -i docker_base_image.tar
